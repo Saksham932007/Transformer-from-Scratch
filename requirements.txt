@@ -1,13 +1,34 @@
-# Core dependencies
-numpy>=1.19.0
+# Core dependencies for transformer implementation
+numpy>=1.21.0
 gensim>=4.0.0
 
-# Optional dependencies for enhanced functionality
-matplotlib>=3.3.0
-jupyter>=1.0.0
+# Visualization and analysis dependencies
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
 
-# Development dependencies (optional)
-pytest>=6.0.0
+# Performance monitoring dependencies
+psutil>=5.8.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Development and testing dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-benchmark>=4.0.0
+
+# Code quality tools
+black>=22.0.0
+flake8>=5.0.0
+mypy>=0.991
+isort>=5.10.0
+
+# Documentation dependencies
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
+sphinx-autodoc-typehints>=1.12.0
 black>=21.0.0
 flake8>=3.8.0
 mypy>=0.812
